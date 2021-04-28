@@ -43,4 +43,7 @@ m1_abrams = car(3, 10, 3, 7, 3, 10)
 bigfoot_5 = car(3, 9, 2, 5, 3, 10)
 toy_car = car(2, 1, 3, 1, 0, 1)
 amphicar_model770 = car(3, 10, 4, 2, 4, 4)
-fiat_multipla
+# fiat_multipla
+horse = car(2, 5, 3, 1, 1, 2)
+caveman_wheel = car(1, 1, 1, 1, 1, 1)
+model_t = (3, 3, 1, 2, 3 4)
