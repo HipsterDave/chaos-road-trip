@@ -1,1 +1,3 @@
-#cheese is great
+import functions
+
+functions.welcome()
