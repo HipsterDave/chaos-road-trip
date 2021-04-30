@@ -16,7 +16,7 @@ def typing1(text):
 		time.sleep(random.random()*10/typingspeed)
 
 def typing(text):
-    typing1(text + "\n")
+	typing1(text + "\n")
 
 def clear():
 	if sys.platform.startswith("linux"):
@@ -27,10 +27,10 @@ def clear():
 		os.system("clear")
 
 class car():
-    def __init__(self, speed, off_road, fuel, safety, luxury, size, name):
-        self.speed = speed
-        self.off_road = off_road
-        self.fuel = fuel
+	def __init__(self, speed, off_road, fuel, safety, luxury, size, name):
+		self.speed = speed
+		self.off_road = off_road
+		self.fuel = fuel
 		self.safety = safety
 		self.luxury = luxury
 		self.size = size
@@ -47,7 +47,7 @@ amphicar_model770 = car(3, 10, 4, 2, 4, 4, "Amphicar Model 770")
 # fiat_multipla
 horse = car(2, 5, 3, 1, 1, 2, "Horse")
 caveman_wheel = car(1, 1, 1, 1, 1, 1, "Caveman Wheel")
-model_t = car(3, 3, 1, 2, 3 4, "Model T")
+model_t = car(3, 3, 1, 2, 3, 4, "Model T")
 ford_focus_rs = car(7, 4, 4, 5, 5, 3, "Ford Focus RS")
 chevy_camaro = car(8, 4, 4, 4, 5, 4, "Chevy Camaro")
 

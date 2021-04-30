@@ -33,6 +33,7 @@ def random_car():
     typing("You get...")
     functions.textloading(3, "Choosing Car")
     random_car = random.choice(car.cars)
+	typing("A %s!" % random_car.name)
 
 def key_west():
     print("yo.")
