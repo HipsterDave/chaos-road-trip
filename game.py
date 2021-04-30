@@ -51,4 +51,4 @@ def tutorial():
     typing("Each route will have a starting point and an ending point.")
     typing("There will also be little destination cities in the middle of it.")
     typing("Now, let's look at your options!")
-    
+    text.routelist()
