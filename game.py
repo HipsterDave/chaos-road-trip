@@ -6,6 +6,11 @@ import car
 import functions
 import picklefile
 import text
+import east
+import west
+import north
+import south
+from east import random_car
 
 typingspeed = 100
 
@@ -52,3 +57,9 @@ def tutorial():
     typing("There will also be little destination cities in the middle of it.")
     typing("Now, let's look at your options!")
     text.routelist()
+    typing("Please pick a route.")
+    chosen_route = ""
+    while chosen_route not in ["1", "2", "3", "4"]:
+        chosen_route = input("> ")
+    if chosen_route == "1":
+        random_car()
