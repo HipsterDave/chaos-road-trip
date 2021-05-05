@@ -43,3 +43,11 @@ def routelist():
 2) West Coast - Seattle, WA to San Diego, CA
 3) North - Bangor, ME to Seattle, WA
 4) South - Huntsville, AL to Los Angeles, CA''')
+
+def key_west_1():
+	print('''1) Honk
+2) Keep driving slow''')
+
+def key_west_2():
+	print('''1) Lie - Say that you fell off of a ladder and hit your head.
+2) Tell the Truth - Say that an angry bodybuilder smacked you in the face."''')

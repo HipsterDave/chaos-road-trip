@@ -25,6 +25,9 @@ class Info():
 		self.name = ""
 		self.cityfrom = ""
 		self.statefrom = ""
+		self.points = 0
+		self.highscore = 0
+		self.savepoint = 0
 
 data = Info()
 

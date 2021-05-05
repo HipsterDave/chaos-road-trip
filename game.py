@@ -10,7 +10,10 @@ import east
 import west
 import north
 import south
-from east import random_car
+import east
+import west
+import south
+import north
 
 typingspeed = 100
 
@@ -52,7 +55,7 @@ def tutorial():
     typing("Nice to meet you!")
     typing("So, before you embark on your trip, let me tell you about what we are going to do.")
     typing("Currently, there are 4 journeys you can take!")
-    typing("You can take the west coast route, the east coast route, the north route, and the south route.")
+    typing("You can take the east coast route, the west coast route, the north route, or the south route.")
     typing("Each route will have a starting point and an ending point.")
     typing("There will also be little destination cities in the middle of it.")
     typing("Now, let's look at your options!")
@@ -62,4 +65,12 @@ def tutorial():
     while chosen_route not in ["1", "2", "3", "4"]:
         chosen_route = input("> ")
     if chosen_route == "1":
-        random_car()
+        east.random_car()
+    elif chosen_route == "2":
+        west.random_car()
+    elif chosen_route == "3":
+        north.random_car()
+    elif chosen_route == "4":
+        south.random_car()
+    else:
+        typing("You have somehow broken the code. Congratulations!")
